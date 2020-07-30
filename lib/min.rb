@@ -1,5 +1,5 @@
 require 'pry'
-require_relative 'min.rb'
+#require_relative 'min.rb'
 
 #This is the groceries hash we'll be passing in to the get_the_min method
 # groceries = {
@@ -10,5 +10,7 @@ require_relative 'min.rb'
 # }
 
 def get_the_min(groceries)
-  get_the_values(groceries).min
+  #get_the_values(groceries).min
+
+  groceries.min
 end
